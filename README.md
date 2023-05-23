@@ -1,4 +1,4 @@
-# openWithIterm
+## openWithIterm
 在mac finder里使用iterm打开当前目录
 
 - 打开Script Editor
@@ -39,3 +39,20 @@ end tell
 
 - [参考1](https://github.com/wonderyue/Go2ShellAppleScript)
 - [参考2](https://github.com/Ji4n1ng/OpenInTerminal/blob/v1.2.3/Resources/README-Lite-zh.md)
+
+
+
+## 安装
+
+```scala
+git clone https://github.com/mafulong/openWithIterm.git
+cd openWithIterm
+mkdir /Applications/111mafulong
+mv openIterm.app /Applications/111mafulong/
+open /Applications/111mafulong/
+```
+
+然后拖拽安装即可。
+
+此时图标是正确的。
+
